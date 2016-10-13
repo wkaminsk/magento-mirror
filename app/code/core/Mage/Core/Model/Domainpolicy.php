@@ -71,6 +71,7 @@ class Mage_Core_Model_Domainpolicy
      */
     public function addDomainPolicyHeader($observer)
     {
+        return;
         /** @var Mage_Core_Controller->getCurrentAreaDomainPolicy_Varien_Action $action */
         $action = $observer->getControllerAction();
         $policy = null;
